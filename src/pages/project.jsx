@@ -28,7 +28,7 @@ const Project = () => {
           <motion.div 
             key={project.id} 
             className="flex flex-col items-center justify-center p-6 text-white transition duration-300 transform bg-gray-500 rounded-lg shadow-lg hover:scale-105"
-            initial={{x:-1000,opacity:0}} animate={{x:0,opacity:1}} transition={{duration: 10, type:"spring", stiffness:50}}
+            initial={{x:-1000,opacity:0}} animate={{x:0,opacity:1}} transition={{duration: 5, type:"spring", stiffness:50}}
           >
             <img src={project.imageUrl} className='w-2/4'></img>
             <h2 className="mb-4 text-xl font-semibold">{project.name}</h2>

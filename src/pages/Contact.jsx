@@ -14,7 +14,7 @@ const Contact = () => {
       alert('Email sent successfully');
   }
   return (
-    <div className='flex items-center justify-center w-screen h-screen'>
+    <div className='flex items-center justify-center w-[100%] h-[100%]'>
      <div className="w-[100%] h-[100%] text-white ">
     <div className="pt-10 md:pt-20">
         <div className="p-4 md:p-8">
