@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin, CiMail } from "react-icons/ci";
 import myprofile from '../assets/image/IMG_20230121_213841.jpg';
