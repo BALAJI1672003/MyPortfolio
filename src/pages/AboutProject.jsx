@@ -49,7 +49,7 @@ const AboutProject = () => {
                         transition={{ duration: 10, type: "spring", stiffness: 50 }}>
                         
                         <h1 className='text-xl font-poppins'>Project Details</h1>
-                        <h1 className='text-xl font-poppins'>Project Name: {project.projectName}</h1>
+                        <h1 className='text-xl font-poppins'>Project Name: {project.projectname}</h1>
                         <h1 className='text-xl font-poppins'>Project Stack:</h1>                        
                         <ul className='flex flex-row gap-5'>
                             {project.stack.map((value, index) => (
